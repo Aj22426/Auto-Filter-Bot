@@ -12,7 +12,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'JACK_ROBOT')
 API_ID = '20262762'
 API_HASH = 'da1255984e0378c97438d78ef3e3bc0c'
-BOT_TOKEN = '' 
+BOT_TOKEN = '8776818362:AAFCH07oSCy70vOpP42sBwvt5mV3Pt0eyG0' 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
