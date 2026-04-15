@@ -41,7 +41,7 @@ DATABASE_URI_2 = environ.get('DATABASE_URI_2', '')
 DATABASE_NAME_2 = environ.get('DATABASE_NAME_2', 'jack2')
 COLLECTION_NAME_2 = environ.get('COLLECTION_NAME_2', COLLECTION_NAME)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003780029097'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 
 movie_updates_channel = environ.get('MOVIE_UPDATES_CHANNEL', '').strip()
