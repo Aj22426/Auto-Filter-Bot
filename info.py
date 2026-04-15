@@ -42,7 +42,7 @@ DATABASE_NAME_2 = environ.get('DATABASE_NAME_2', 'jack2')
 COLLECTION_NAME_2 = environ.get('COLLECTION_NAME_2', COLLECTION_NAME)
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003780029097'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-5127620258')
 
 movie_updates_channel = environ.get('MOVIE_UPDATES_CHANNEL', '').strip()
 if movie_updates_channel and id_pattern.search(movie_updates_channel):
