@@ -10,8 +10,8 @@ def is_enabled(value, default):
         return default
 # Bot information
 SESSION = environ.get('SESSION', 'JACK_ROBOT')
-API_ID = ''
-API_HASH = ''
+API_ID = '20262762'
+API_HASH = 'da1255984e0378c97438d78ef3e3bc0c'
 BOT_TOKEN = '' 
 
 # Bot settings
