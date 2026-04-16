@@ -17,7 +17,7 @@ BOT_TOKEN = '8776818362:AAFCH07oSCy70vOpP42sBwvt5mV3Pt0eyG0'
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', '')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/B5Zbhb4r/photo-2026-04-16-14-57-20-7629373024629686288.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8219927344').split()]
